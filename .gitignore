@@ -1,0 +1,20 @@
+# Generic build directories
+**/build/
+
+# Common artifacts
+**/*.o
+**/*.d
+**/*.out
+**/*.a
+**/*.so
+
+# Exercise binaries
+ex01_hello/hello
+ex02_variables/calc
+ex03_pattern_deps/stats_app
+ex04_build_modes/formatter_app
+ex05_cuda_optional/vec_add
+
+# Local editor / OS files
+.vscode/
+.DS_Store
