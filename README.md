@@ -28,6 +28,18 @@
 
 ---
 
+## 每章先看这个（知识点讲解）
+
+- `ex01_hello/知识点讲解.md`
+- `ex02_variables/知识点讲解.md`
+- `ex03_pattern_deps/知识点讲解.md`
+- `ex04_build_modes/知识点讲解.md`
+- `ex05_cuda_optional/知识点讲解.md`
+
+建议学习方式：**先看知识点讲解，再做对应 `TASK.md`**。
+
+---
+
 ## 快速开始
 
 ```bash
@@ -46,6 +58,19 @@ make all
 make run-ex01
 make run-ex03
 ```
+
+---
+
+## 关于“有些文件打不开”
+
+`ex01_hello/hello`、`ex02_variables/calc`、`ex03_pattern_deps/stats_app`、`ex04_build_modes/formatter_app`、`ex05_cuda_optional/vec_add` 都是**编译产物（二进制可执行文件）**，不是源码文本，IDE 里通常无法按文本打开。
+
+看源码请进入：
+
+- `main.c` / `src/*.cpp` / `vector_add.cu`
+- `Makefile`
+- `TASK.md`
+- `知识点讲解.md`
 
 ---
 
