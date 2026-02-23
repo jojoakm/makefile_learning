@@ -1,0 +1,16 @@
+target := cool
+source := main.cpp
+cc := g++
+CFLAGS := -O0 -g -Wall -Wextra
+
+.PHONY: all print-vars
+
+all: $(target)
+
+$(target): $(source)
+	$(cc) $< $(warn) -o $@
+	@echo "complete!"
+
+print-vars:
+	@echo "$(cc)"
+	@echo "$(CFLAGS)"
